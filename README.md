@@ -45,7 +45,7 @@ Salifort Motors is experiencing employee attrition, leading to increased costs f
 - Precision–recall analysis revealed that default thresholds underperform in identifying at-risk employees
 - Optimal classification threshold differs from 0.5 when accounting for business costs
 
-The model ultimately improves identification of at-risk employees at its optimal thresholds, while maximizing estimated net value under defined cost assumptions.
+The model ultimately improves identification of at-risk employees at optimized thresholds, while maximizing estimated net value under defined cost assumptions.
 
 ## Business Impact & Decision Framework
 
