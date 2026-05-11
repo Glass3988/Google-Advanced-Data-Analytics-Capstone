@@ -24,7 +24,7 @@ from sklearn.tree import plot_tree
 import pickle
 
 
-df0 = pd.read_csv("HR_capstone_dataset.csv")
+df0 = pd.read_csv('data/HR_capstone_dataset.csv')
 
 
 
