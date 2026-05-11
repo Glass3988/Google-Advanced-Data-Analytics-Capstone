@@ -153,7 +153,7 @@ Forest1 = GridSearchCV(ForestOG, cv_params, scoring=scoring, cv = 4, refit='roc_
 
 Forest1.fit(X_train, y_train)
 
-path = '/home/jovyan/work/'
+path = 'data/HR_capstone_dataset.csv'
 
 def write_pickle(path, model_object, save_as:str):
     
