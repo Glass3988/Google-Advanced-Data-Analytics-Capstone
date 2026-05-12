@@ -86,6 +86,7 @@ Based on the analysis:
 
 - Cost assumptions used in the decision model are illustrative and can be adjusted to reflect real business conditions
 - The framework is adaptable to other churn or attrition problems
+- The notebook reflects the original Coursera/Jupyter development environment, while src/train_model.py contains the cleaned reproducible workflow with portable relative paths.
 
 ## Visual Insights
 Below are the most important factors my models predict are contributing to employee dissatisfaction:
