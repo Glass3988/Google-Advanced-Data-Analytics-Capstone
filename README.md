@@ -88,6 +88,24 @@ Based on the analysis:
 - The framework is adaptable to other churn or attrition problems
 - The notebook reflects the original Coursera/Jupyter development environment, while src/train_model.py contains the cleaned reproducible workflow with portable relative paths.
 
+## How to Reproduce
+
+1. Clone this repository.
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the training script:
+
+```bash
+python src/train_model.py
+```
+
+The script loads the HR dataset from `data/`, cleans and preprocesses the data, trains a Random Forest model, evaluates ROC-AUC and PR-AUC using predicted probabilities, and saves the trained model to `models/random_forest_model.pkl`.
+
 ## Visual Insights
 Below are the most important factors my models predict are contributing to employee dissatisfaction:
 
