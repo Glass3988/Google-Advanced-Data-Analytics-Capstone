@@ -96,4 +96,5 @@ Below are the most important factors my models predict are contributing to emplo
 
 ## Detailed Documentation
 * **Full Technical Report:** [Interactive Jupyter Notebook](./notebooks/Capstone_Notebook.ipynb)
-* **Clean Source Code:** [Python Script/Clean Notebook](./notebooks/Source_Code.ipynb)
+* **Reproducible Training Script:** [src/train_model.py](./src/train_model.py)
+* **Clean Notebook Version:** [notebooks/Source_Code.ipynb](./notebooks/Source_Code.ipynb)
