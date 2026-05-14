@@ -7,7 +7,7 @@ Instead of relying on default classification thresholds, I evaluated model perfo
 
 Salifort Motors is experiencing employee attrition, leading to increased costs from recruiting, onboarding, and lost productivity. The objective of this project is to:
 
-- Identify key drivers of employee turnover
+- Identify key factors associated with employee turnover
 - Predict which employees are at risk of leaving
 - Recommend actionable strategies to reduce attrition
 
