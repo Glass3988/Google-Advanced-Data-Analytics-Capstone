@@ -76,6 +76,23 @@ Based on the analysis:
 - notebooks/ – analysis and modeling notebooks
 - images/ – visualizations used in the project
 
+## Project Structure
+
+- `data/`
+  - Contains the HR attrition dataset used for model training and evaluation.
+
+- `notebooks/`
+  - Contains the full exploratory analysis, visualizations, threshold tuning experiments, and business interpretation performed in Jupyter notebooks.
+
+- `src/train_model.py`
+  - Reproducible training workflow that loads the dataset, preprocesses the data, trains the Random Forest model, evaluates ROC-AUC and PR-AUC, and saves the trained model.
+
+- `models/`
+  - Stores serialized trained models.
+
+- `images/`
+  - Contains visualizations used in the README and notebook analysis.
+
 ## Tools & Technologies
 
 - Python (pandas, numpy, scikit-learn)
