@@ -38,7 +38,7 @@ Salifort Motors is experiencing employee attrition, leading to increased costs f
 ## Key Results
 
 - Random Forest outperformed Decision Tree in predictive performance
-- Key drivers of attrition:
+- Key predictors associated with attrition:
   - High workload (hours and project count)
   - Low satisfaction levels
   - Lack of promotion
@@ -107,7 +107,7 @@ python src/train_model.py
 The script loads the HR dataset from `data/`, cleans and preprocesses the data, trains a Random Forest model, evaluates ROC-AUC and PR-AUC using predicted probabilities, and saves the trained model to `models/random_forest_model.pkl`.
 
 ## Visual Insights
-Below are the most important factors my models predict are contributing to employee dissatisfaction:
+Below are the most important model features associated with employee attrition:
 
 ![Decision Tree Feature Importance](./images/Decision_Tree_Feature_Importance.png)
 ![Random Forest Feature Importance](./images/Random_Forest_Feature_Importance.png)
